@@ -1,0 +1,15 @@
+defect_code,defect_desc,count,cost,escapes,cum_cost_pct
+M01,Fastener under-torque,172,145990.6,30,18.6
+E02,Cold solder joint,98,78056.96,7,28.5
+E04,Connector pin damage (purchased),137,76492.1,8,38.2
+E01,Crimp defect,174,74623.7,10,47.7
+M02,Bracket misalignment,104,65609.0,2,56.0
+E03,Wire routing or chafe,71,61968.69,4,63.9
+M04,Surface damage,71,45250.51,5,69.6
+A02,Traveler or documentation error,78,41552.84,7,74.9
+S01,Purchased part dimensional nonconformance,82,41127.2,2,80.1
+A01,Missing or incorrect hardware,71,38600.01,4,85.0
+X03,Connector mate incomplete,50,33232.67,3,89.3
+X01,Actuator backlash out of tolerance,65,29530.53,5,93.0
+M03,FOD found in assembly,51,27588.03,4,96.5
+X02,Sensor calibration offset,62,27304.32,4,100.0
