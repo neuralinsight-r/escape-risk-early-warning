@@ -5,6 +5,10 @@ simulate an electro-mechanical assembly line. No real program, company, supplier
 part data is represented. The scenario is modeled on publicly reported quality
 concerns in defense aerospace production (see Background), not on any internal data.
 
+![Risk Board](images/risk-board.png)
+![Process Health](images/process-health.png)
+![Responsibility](images/responsibility.png)
+
 ## Quick start
 
 ```
@@ -55,12 +59,20 @@ and why signals are confirmed before opening a corrective action.
 
 ## Background (public sources)
 
-- DoD Office of Inspector General, audit of F-35 contract quality assurance oversight
-  (published late 2025 / early 2026): fleet availability near 50 percent; Contracting
-  Officer Representatives largely did not track negative trends or hold the contractor
-  to its Quality Assurance Surveillance Plan.
-- Defense Contract Management Agency statements on quality defects "escaping to the
-  field" on delivered aircraft, tied to scrap and rework rates, supplier performance,
-  and workforce turnover during production ramps.
+- DoD Office of Inspector General, [*Audit of the DoD's Oversight of Contractor
+  Performance for the F-35 Joint Strike Fighter Sustainment Contracts*](https://media.defense.gov/2025/Dec/23/2003848755/-1/-1/1/DODIG-2026-039_FINAL%20SECURE.PDF)
+  (Report No. DODIG-2026-039, Dec. 23, 2025): average F-35 fleet availability
+  was about 50 percent in FY2024, and the audit found the Joint Program Office
+  did not use Contracting Officer Representatives effectively or enforce
+  contract oversight requirements.
+- GAO, [*F-35 Joint Strike Fighter: Program Continues to Encounter Production
+  Issues and Modernization Delays*](https://www.gao.gov/assets/gao-24-106909.pdf)
+  (GAO-24-106909, May 2024): Lockheed Martin has missed its own goals for
+  scrap, rework, and repair hours, and several suppliers have had late or
+  quality-impacted deliveries.
 
-Link the primary documents here when publishing.
+This project simulates a version of that second problem, catching scrap/rework-driving
+defects before they reach the field, at a scale a self-taught candidate can
+build end to end. The workforce-turnover and connector-supplier scenarios in
+this dataset are illustrative simulations, not claims about any specific
+documented event.
